@@ -2,7 +2,7 @@ import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Coffee, Heart, Code2, Download, X } from "lucide-react";
 import { useTheme } from "./useTheme";
-import miQR from "../assets/qr_code_placeholder.png";
+import miQR from "../assets/qr_code.jpeg";
 
 interface DonationModalProps {
     isOpen: boolean;
